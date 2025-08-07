@@ -4,7 +4,7 @@ A full-stack web application with an expert system for providing strategic champ
 
 ## Screenshot
 
-![App Screenshot](screenshot.png) 
+![Screenshot](./assets/screenshot.png) 
 
 ## The Problem
 
@@ -31,16 +31,18 @@ The League of Legends champion draft is a complex, high-pressure phase where pla
    cd lol-draft-assistant
 
 2. **Setup the Backend:**
-cd backend
-npm install
-# Create a .env file and add your PostgreSQL DATABASE_URL
-# Run the seeder script
+   ```bash
+   cd backend
+   npm install
+**Create a .env file and add your PostgreSQL DATABASE_URL**
+**Run the seeder script**
 node scripts/seedDefinitiveData.js
-# Start the server
+**Start the server**
 node index.js
 
 3. **Setup the Frontend:**
-cd ../frontend
-npm install
-# Start the React app
+   ```bash
+   cd ../frontend
+   npm install
+**Start the React app**
 npm start
